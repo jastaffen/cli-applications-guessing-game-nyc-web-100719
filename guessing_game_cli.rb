@@ -46,6 +46,7 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{computer_number}."
   elsif user_input == computer_number
     puts "You guessed the correct number!"
+  end
 =======
   gets.chomp
 end
